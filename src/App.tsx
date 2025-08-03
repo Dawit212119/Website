@@ -1,3 +1,4 @@
+import Nav from "./components/Nav";
 import {
   CustomerReview,
   PopularProduct,
@@ -8,8 +9,9 @@ import {
   SuperQuality,
 } from "./sections/index";
 const App = () => (
-  <main>
-    <section className="px-8 sm:px-16 pb-12 sm:pb-24 text-2xl">Nav</section>
+  <main className="relative">
+    <Nav />
+    <section className="px-8 sm:px-16 pb-12 sm:pb-24 text-2xl">Hero</section>
     <section className="padding">
       {" "}
       <PopularProduct />{" "}
