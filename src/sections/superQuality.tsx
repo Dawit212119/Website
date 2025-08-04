@@ -1,8 +1,11 @@
-import { bigShoe3, shoe8 } from "../assets/images";
+import { shoe8 } from "../assets/images";
 
 const SuperQuality = () => {
   return (
-    <section className="flex justify-around items-center  gap-16 min-h-screen">
+    <section
+      id="about-us"
+      className="flex justify-around items-center  gap-16 min-h-screen max-lg:flex-col"
+    >
       <div className="flex flex-col w-1/2 ">
         <h1 className="text-4xl font-bold leading-normal max-sm:whitespace-nowrap">
           We Provide You <span className="text-red-500">Super</span>

@@ -4,7 +4,7 @@ import { products } from "../constants";
 const PopularProduct = () => {
   return (
     <section
-      id="prdoucts"
+      id="products"
       className="flex flex-col w-full gap-30 max-sm:gap-10 mt-20 min-h-screen"
     >
       <div className="mb-10">
