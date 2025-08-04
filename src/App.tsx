@@ -7,11 +7,14 @@ import {
   SpecialOffer,
   Subscribe,
   SuperQuality,
+  Hero,
 } from "./sections/index";
 const App = () => (
-  <main className="relative">
+  <main className="relative max-w-full">
     <Nav />
-    <section className="px-8 sm:px-16 pb-12 sm:pb-24 text-2xl">Hero</section>
+    <section className="px-8 max-w-full sm:px-16 pb-12 sm:pb-24">
+      <Hero />
+    </section>
     <section className="padding">
       {" "}
       <PopularProduct />{" "}

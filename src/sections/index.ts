@@ -5,6 +5,7 @@ import Service from "./service";
 import SpecialOffer from "./specialOffer";
 import Subscribe from "./subscribe";
 import SuperQuality from "./superQuality";
+import Hero from "./Hero";
 
 export {
   CustomerReview,
@@ -14,4 +15,5 @@ export {
   SpecialOffer,
   Subscribe,
   SuperQuality,
+  Hero,
 };

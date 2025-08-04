@@ -6,14 +6,14 @@ const Nav = () => {
   const [toggle, setToggle] = useState(false);
   console.log(toggle);
   return (
-    <header className=" px-12 sm:px-24 py-10 w-full mx-auto absolute">
+    <header className=" px-12 max-sm:whitespace-nowrap sm:px-24 py-10 w-full z-50 mx-auto absolute">
       <nav className="flex justify-between items-center flex-nowrap max-w-[1024px] mx-auto">
         <a href="/">
           <img
-            className="hover:shadow-xl "
+            className="hover:shadow-xl"
             src={headerLogo}
-            width={200}
-            height={220}
+            width={240}
+            height={280}
           />
         </a>
         <ul className="flex justify-between md:gap-10 gap-5 max-xl:hidden  items-center list-none xl:w-[500px] w-[430px]">
@@ -38,7 +38,7 @@ const Nav = () => {
           </p>
           <div className="">
             {toggle && (
-              <div className="flex flex-col space-y-3 justify-center left-1/2 transform -translate-x-1/2 items-center absolute top-16 shadow-xl py-5 px-6 rounded-2xl  ">
+              <div className="flex flex-col space-y-3 justify-center left-1/2  transform -translate-x-1/2 items-center absolute top-16 shadow-xl py-5 px-6 rounded-2xl  ">
                 <ul className="flex flex-col justify-between gap-5  items-center list-none ">
                   {navLinks.map((items) => (
                     <li
