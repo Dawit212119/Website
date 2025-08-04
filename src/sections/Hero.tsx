@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { bigShoe1, bigShoe2 } from "../assets/images";
+import { bigShoe1 } from "../assets/images";
 import { shoes, statistics } from "../constants";
 
 const Hero = () => {
