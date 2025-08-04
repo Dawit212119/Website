@@ -41,7 +41,7 @@ const Hero = () => {
           ))}
         </div>
       </div>
-      <div className="relative  flex flex-1  justify-center py-40 items-center bg-gradient-to-r from-cyan-400 to-black bg-cover bg-center">
+      <div className="relative max-sm:p-0  flex flex-1  justify-center py-40 items-center bg-gradient-to-r from-cyan-400 to-black bg-cover bg-center">
         <img
           src={shoeChange}
           alt="shoe colletion"
